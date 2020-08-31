@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" type="image/x-icon" href="/images/logo.ico" /><title>OtherTimeRP</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="loader-container">
+            <div class="loader"></div>
+        </div>
+
+        <header>
+            <img class="logo" src="/images/logo.svg" alt="logo">
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="regulamin.html">Regulamin</a></li>
+                    <li><a href="#">Podanie WL</a></li>
+                    <li><a href="#">O nas</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="https://discord.gg/vJzbGxv"><button>Discord</button></a>
+        </header>
+
+        <script>
+            $(window).on("load",function(){
+                $(".loader-container").fadeOut(2000);
+            });
+        </script>
+    </body>
+</html>
