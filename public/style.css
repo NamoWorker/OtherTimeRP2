@@ -3,7 +3,7 @@ main {
     padding: 90px;
     color: white;
     font-family: 'Lato', sans-serif;
-    background-image: url("/images/w-r.jpg");
+    background-image: url("../images/w-r.jpg");
     background-color: #cccccc;
     background-size: cover;
     background-position: center;
